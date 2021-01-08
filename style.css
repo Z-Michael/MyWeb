@@ -15,7 +15,7 @@ body{
  }
 
  .navbar {
-     background-image:linear-gradient(to right,#a517ba, #5f1782);
+     background-image:linear-gradient(to right,#0d090e, #5f1782);
      padding: 0 !important ;
  }
 
@@ -37,7 +37,7 @@ body{
 }
 
 .navbar-nav li a {
-   color: #fff ! important; 
+   color: rgb(241, 236, 236) ! important; 
    font-weight: 600;
    float:right;
    text-align: left;
@@ -49,4 +49,47 @@ body{
 }
 .navbar-toggler{
     outline: none !important;
+}
+
+
+/* banner section */
+
+
+#banner {
+   color:rgb(51, 47, 47);
+   padding-top:5%;
+   
+
+}
+
+.banner-title{
+    font-size: 40px;
+    font-weight:600;
+    margin-top:100px;
+}
+
+.play {
+    width:45px;
+    margin:20px;
+   
+
+}
+#banner a {
+    color:blueviolet;
+    text-decoration: none;
+    z-index: -1;
+    
+
+}
+.img-fluid{
+    width:70%;
+    border-radius: 100%;
+    padding-bottom: 3%;
+    z-index: 2;
+}
+.cover{
+    width:100%;
+    background-position: center top ;
+    margin-top: -300px;
+    
 }
