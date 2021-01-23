@@ -110,12 +110,14 @@ body{
     
   }
   .title-banner{
+      font-size: 15px;
+    font-weight:500;
    margin-top:30px;
-   font-size: larger;
   }
   .title-banner2{
-      font-size:small;
-  }
+font-size: 10px;
+    font-weight:500;
+    margin-top:50px;  }
   
 
   #banner{
