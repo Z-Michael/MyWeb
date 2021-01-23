@@ -111,8 +111,9 @@ body{
   }
   .title-banner{
    margin-top:30px;
-   font-size: medium;
+   font-size: larger;
   }
+  
 
   #banner{
     height:50vh;  
