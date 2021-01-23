@@ -8,8 +8,9 @@ body{
     font-family: sans-serif;
     background-image: url("images/wave.jpg");
 }
-.font-fix {
+.font-fix , .title-banner{
     font-family: 'East Sea Dokdo', cursive;
+    color:red !important;
 }
 
 /* Nav Bar Section */
@@ -81,15 +82,10 @@ body{
     color:red;
 }
 #banner p{
-    color:red;
+    color:#fff;
 }
-
-.play {
-    width:45px;
-    margin:20px;
    
 
-}
 #banner a {
     color:blueviolet;
     text-decoration: none;
@@ -97,21 +93,30 @@ body{
 
 }
 .img-fluid{
-    width:80%;
+    width:60%;
     border-radius: 30px;
-    padding-bottom: 3%;
     z-index: 2;
 }
 
 /* Media Quweries */
     
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
   .img-fluid {
-    width:35%;
-    margin-right: 80px;
+    width:100px;
+    margin-left:50px;
     margin-top: 50px;
+    margin-bottom: 40px;
     z-index: 2;
     
+  }
+  .title-banner{
+   margin-top:30px;
+   font-size: medium;
+  }
+
+  #banner{
+    height:50vh;  
+    text-align: center;
   }
 }
 
