@@ -64,7 +64,7 @@ body{
 #banner {
    color:rgb(51, 47, 47);
    padding-top:5%;
-    height: 100vh;
+    height: 80vh;
     background-image:linear-gradient(to right,#0d090e, #5f1782);
    background-repeat: no-repeat;
    object-fit: cover;
@@ -104,7 +104,7 @@ body{
 @media only screen and (max-width: 800px) {
   .img-fluid {
     width:100px;
-    padding-top: 50px;
+    padding-bottom: 60px;
     z-index: 2;
     
   }
@@ -136,7 +136,7 @@ body{
 }
 
 .service-img{
-    width:100px;
+    width:80px;
     padding-top:80px;
     
 }
