@@ -137,19 +137,19 @@ body{
 
 .service-img{
     width:100px;
-    padding-top:10px;
+    padding-top:80px;
     
 }
 
 .service {
-    padding:200px;
+    padding:100px;
 }
 
 li {
 list-style-type: none;
 }
 #services h4 {
-    padding: 5px;
+    padding: 15px;
     margin-top: 25px;
     text-transform: uppercase;
     color: rgb(80, 7, 7);
