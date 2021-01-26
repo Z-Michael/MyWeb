@@ -99,33 +99,6 @@ body{
     z-index: 2;
 }
 
-/* Media Quweries */
-    
-@media only screen and (max-width: 800px) {
-  .img-fluid {
-    width:130px;
-    padding-bottom: 60px;
-    z-index: 2;
-    
-  }
-  .title-banner{
-      font-size: 30px !important;
-    font-weight:800 !important;
-   margin-top:30px;
-  }
-  .title-banner2{
-    font-size: 15px !important;
-    font-weight:700 !important;
-    margin-top:50px;  }
-  
-
-  #banner{
-    height:70vh;  
-    text-align: center;
-  }
-}
-
-
 /* section service */
 
 
@@ -320,3 +293,38 @@ margin-top: 8%;
       padding-bottom: 20px;
       text-align: center;  
     }
+
+
+    /* Media query */
+    
+@media only screen and (max-width: 800px) {
+  .img-fluid {
+    width:130px;
+    padding-bottom: 60px;
+    z-index: 2;
+    
+  }
+  .title-banner{
+      font-size: 30px !important;
+    font-weight:800 !important;
+   margin-top:30px;
+  }
+  .title-banner2{
+    font-size: 15px !important;
+    font-weight:700 !important;
+    margin-top:50px;  }
+  
+
+  #banner{
+    height:70vh;  
+    text-align: center;
+  }
+  
+
+  .testimonials{
+       border-left: 4px solid #7b1897;
+       margin-left:80px;
+
+    
+}
+}
